@@ -132,17 +132,13 @@
 			isa = PBXGroup;
 			children = (
 				F04BC78D25E320A60093E3B2 /* Main.storyboard */,
-				F04BC78B25E320A60093E3B2 /* ViewController.swift */,
-				F075AFE02607CFE800E1C7D0 /* ViewControllerAlamofire.swift */,
-				F04BC7F925E321570093E3B2 /* ModelData.swift */,
-				F0FD7A8D2630004600AD4A88 /* CurrentModel.swift */,
+				F0DC375A27CD6162004EB48D /* Controllers */,
+				F0DC375B27CD6180004EB48D /* Models */,
 				F04BC78925E320A60093E3B2 /* SceneDelegate.swift */,
-				F0F8B7D22608F8A800A630DA /* Cell.swift */,
-				F0DD7C4C25EF3B3A0033E780 /* TableViewCell.swift */,
-				F04BC78725E320A60093E3B2 /* AppDelegate.swift */,
-				F0F7C546261759C8006696C7 /* AFNetwork.swift */,
-				F0ACC12925EC2F08006106AF /* Network.swift */,
+				F0DC375C27CD6197004EB48D /* Cells */,
+				F0DC375D27CD61AA004EB48D /* Networks */,
 				F04BC79025E320AE0093E3B2 /* Assets.xcassets */,
+				F04BC78725E320A60093E3B2 /* AppDelegate.swift */,
 				F04BC79225E320AE0093E3B2 /* LaunchScreen.storyboard */,
 				F04BC78625E320A60093E3B2 /* WeatherStandart */,
 				F04BC79D25E320AF0093E3B2 /* WeatherAppTests */,
@@ -187,6 +183,42 @@
 				F04BC7AB25E320AF0093E3B2 /* Info.plist */,
 			);
 			path = WeatherAppUITests;
+			sourceTree = "<group>";
+		};
+		F0DC375A27CD6162004EB48D /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				F04BC78B25E320A60093E3B2 /* ViewController.swift */,
+				F075AFE02607CFE800E1C7D0 /* ViewControllerAlamofire.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		F0DC375B27CD6180004EB48D /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				F04BC7F925E321570093E3B2 /* ModelData.swift */,
+				F0FD7A8D2630004600AD4A88 /* CurrentModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		F0DC375C27CD6197004EB48D /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				F0F8B7D22608F8A800A630DA /* Cell.swift */,
+				F0DD7C4C25EF3B3A0033E780 /* TableViewCell.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		F0DC375D27CD61AA004EB48D /* Networks */ = {
+			isa = PBXGroup;
+			children = (
+				F0F7C546261759C8006696C7 /* AFNetwork.swift */,
+				F0ACC12925EC2F08006106AF /* Network.swift */,
+			);
+			path = Networks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
